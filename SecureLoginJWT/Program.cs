@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-var key = Encoding.ASCII.GetBytes("TopSecretKey");
+var key = Encoding.ASCII.GetBytes("TopSuperSecureSecretKey1234567890");
 
 builder.Services.AddAuthentication(x =>
 {

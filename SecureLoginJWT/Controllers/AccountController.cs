@@ -29,11 +29,11 @@ public class AccountController : Controller
             Response.Cookies.Append("auth_token", token, new CookieOptions
             {
                 HttpOnly = true,  // cookie is not accessible via JavaScript (added security)
-                Secure = true,  // cookie is only sent over HTTPS
+                Secure = false,  
                 SameSite = SameSiteMode.Strict  // protection against Cross-Site Forgery
             });
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Dashboard", "User");
         }
         return View(model);
     }
@@ -42,7 +42,7 @@ public class AccountController : Controller
     private string GenerateJwtToken(string username)
     {
         var tokenHandler = new JwtSecurityTokenHandler();
-        var key = Encoding.ASCII.GetBytes("TopSecretKey");
+        var key = Encoding.ASCII.GetBytes("TopSuperSecureSecretKey1234567890");
 
         var tokenDescriptor = new SecurityTokenDescriptor
         {
