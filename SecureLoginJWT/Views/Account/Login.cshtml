@@ -1,0 +1,20 @@
+﻿@model LoginModel
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    <div>
+        <label for="Username">Username:</label>
+        @Html.TextBoxFor(x => x.Username)
+    </div>
+    <div>
+        <label for="Password">Password:</label>
+        @Html.TextBoxFor(x => x.Password)
+    </div>
+    <div>
+        <button type="submit">Login</button>
+    </div>
+
+    @Html.ValidationSummary(true, "", new {@class = "text-danger"})
+}
