@@ -1,20 +1,4 @@
-﻿/*body {
-    height:100%;
-    margin: 0;
-}
-*/
-login-page {
-    background-color: #f4f7fa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*padding-top: 70px;
-    height: calc(100vh - 70px);*/
-    height: 100vh;
-   
-    flex-direction: column;
-}
-
+﻿
 .login-container {
     background-color: white;
     padding: 30px 40px;
