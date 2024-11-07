@@ -4,8 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+
 
 var key = Encoding.ASCII.GetBytes("TopSuperSecureSecretKey1234567890");
 
@@ -26,7 +25,20 @@ builder.Services.AddAuthentication(x =>
         ValidateAudience = false,
         ClockSkew = TimeSpan.Zero
     };
+
+    x.Events = new JwtBearerEvents
+    {
+        OnMessageReceived = context =>
+        {
+            context.Token = context.HttpContext.Request.Cookies["auth_token"];
+            return Task.CompletedTask;
+        }
+
+    };
 });
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
@@ -43,6 +55,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

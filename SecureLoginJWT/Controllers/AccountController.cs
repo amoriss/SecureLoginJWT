@@ -47,7 +47,7 @@ public class AccountController : Controller
         var tokenDescriptor = new SecurityTokenDescriptor
         {
             Subject = new System.Security.Claims.ClaimsIdentity(new[] { new Claim(ClaimTypes.Name, username) }), // add claims (username) to the token
-            Expires = DateTime.UtcNow.AddHours(1), // token's expiration time
+            Expires = DateTime.UtcNow.AddMinutes(1), // token's expiration time
             SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature) // signs the token using secret key
         };
 
