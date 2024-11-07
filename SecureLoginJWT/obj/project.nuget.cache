@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "HLfk5z8DvQQ=",
+  "dgSpecHash": "MvF7N6GaS64=",
   "success": true,
   "projectFilePath": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\SecureLoginJWT.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\amori\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.10\\microsoft.aspnetcore.authentication.jwtbearer.8.0.10.nupkg.sha512",
     "C:\\Users\\amori\\.nuget\\packages\\microsoft.bcl.timeprovider\\8.0.1\\microsoft.bcl.timeprovider.8.0.1.nupkg.sha512",
     "C:\\Users\\amori\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.2.0\\microsoft.identitymodel.abstractions.8.2.0.nupkg.sha512",
     "C:\\Users\\amori\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.2.0\\microsoft.identitymodel.jsonwebtokens.8.2.0.nupkg.sha512",
     "C:\\Users\\amori\\.nuget\\packages\\microsoft.identitymodel.logging\\8.2.0\\microsoft.identitymodel.logging.8.2.0.nupkg.sha512",
+    "C:\\Users\\amori\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "C:\\Users\\amori\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\amori\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.2.0\\microsoft.identitymodel.tokens.8.2.0.nupkg.sha512",
     "C:\\Users\\amori\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.2.0\\system.identitymodel.tokens.jwt.8.2.0.nupkg.sha512"
   ],

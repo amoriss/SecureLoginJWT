@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\amori\\Original\\SecureLoginJWT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Program.cs",
+              "RelativeDocumentMoniker": "SecureLoginJWT\\Program.cs",
+              "ToolTip": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Program.cs",
+              "RelativeToolTip": "SecureLoginJWT\\Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAmwCMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T22:48:02.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "SecureLoginJWT\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Controllers\\AccountController.cs",
               "RelativeToolTip": "SecureLoginJWT\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAzwA8AAAAFAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAzwCwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T05:51:47.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "SecureLoginJWT\\Controllers\\HomeController.cs",
