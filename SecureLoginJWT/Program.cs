@@ -1,10 +1,16 @@
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using SecureLoginJWT.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+      options.UseMySql(
+          builder.Configuration.GetConnectionString("DefaultConnection"),
+          ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection")
+    )));
 
 var key = Encoding.ASCII.GetBytes("TopSuperSecureSecretKey1234567890");
 
