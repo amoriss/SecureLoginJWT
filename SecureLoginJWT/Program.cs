@@ -12,6 +12,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
           ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection")
     )));
 
+builder.Services.AddScoped<UserRepository>();
+
 var key = Encoding.ASCII.GetBytes("TopSuperSecureSecretKey1234567890");
 
 builder.Services.AddAuthentication(x =>
