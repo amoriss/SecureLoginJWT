@@ -28,22 +28,40 @@ public class AccountController : Controller
     }
     // POST
     [HttpPost]
-    public ActionResult Login(LoginModel model)
+    public async Task<ActionResult> Login(LoginModel model)
     {
-        if (model.Username == "admin" && model.Password == "password")
+
+        if(!ModelState.IsValid)
         {
-            var token = GenerateJwtToken(model.Username);
-
-            Response.Cookies.Append("auth_token", token, new CookieOptions
-            {
-                HttpOnly = true,  // cookie is not accessible via JavaScript (added security)
-                Secure = false,
-                SameSite = SameSiteMode.Strict  // protection against Cross-Site Forgery
-            });
-
-            return RedirectToAction("Dashboard", "User");
+            return View(model);
         }
-        return View(model);
+
+        var user = await _userRepository.GetUserByUsernameAsync(model.Username);
+
+        if (user == null)
+        {
+            ModelState.AddModelError("", "Invalid username or password.");
+            return View(model);
+        }
+
+        using var sha256 = SHA256.Create();
+        var hashedPassword = Convert.ToBase64String(sha256.ComputeHash(Encoding.UTF8.GetBytes(model.Password)));
+
+        if (user.PasswordHash != hashedPassword)
+        {
+            ModelState.AddModelError("", "Invalid username or password.");
+            return View(model);
+        }
+
+        // call method that Generates JWT TOken
+        var token = GenerateJwtToken(user.Username);
+
+        // Add token to response or send it to the client securely (part of cookie or JSON response)
+        HttpContext.Response.Headers.Add("Authorization", $"Bearer {token}");
+
+        return RedirectToAction("Index", "Home");
+
+
     }
 
     // Generate JWT Token
