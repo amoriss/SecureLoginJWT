@@ -70,7 +70,7 @@ public class AccountController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Register(LoginModel model)
+    public async Task<IActionResult> Register(RegisterModel model)
     {
         if(!ModelState.IsValid)
         {
@@ -83,7 +83,8 @@ public class AccountController : Controller
         var user = new UserCredentials
         {
             Username = model.Username,
-            PasswordHash = hashedPassword
+            PasswordHash = hashedPassword,
+            Email = model.Email
         };
 
         var success = await _userRepository.RegisterUserAsync(user);
