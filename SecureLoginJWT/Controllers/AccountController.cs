@@ -53,7 +53,7 @@ public class AccountController : Controller
             return View(model);
         }
 
-        // call method that Generates JWT TOken
+        // call method that Generates JWT Token
         var token = GenerateJwtToken(user.Username);
 
         // Add token to response or send it to the client securely (part of cookie or JSON response)

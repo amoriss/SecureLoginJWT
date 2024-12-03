@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\amori\\Original\\SecureLoginJWT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\models\\usercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\models\\usercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\models\\usercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|solutionrelative:secureloginjwt\\models\\usercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8E72C85-0F5F-4F39-9501-02028FA248B3}|SecureLoginJWT\\SecureLoginJWT.csproj|c:\\users\\amori\\original\\secureloginjwt\\secureloginjwt\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -98,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -107,31 +107,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Models\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "SecureLoginJWT\\Models\\RegisterModel.cs",
-              "ToolTip": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Models\\RegisterModel.cs",
-              "RelativeToolTip": "SecureLoginJWT\\Models\\RegisterModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T05:33:55.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserCredentials.cs",
-              "DocumentMoniker": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Models\\UserCredentials.cs",
-              "RelativeDocumentMoniker": "SecureLoginJWT\\Models\\UserCredentials.cs",
-              "ToolTip": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Models\\UserCredentials.cs",
-              "RelativeToolTip": "SecureLoginJWT\\Models\\UserCredentials.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAowAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T05:14:27.278Z"
             },
             {
               "$type": "Document",
@@ -147,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "SecureLoginJWT\\Views\\Account\\Register.cshtml",
@@ -155,46 +130,71 @@
               "RelativeToolTip": "SecureLoginJWT\\Views\\Account\\Register.cshtml",
               "ViewState": "AQIAAAQAAAAAAAAAAIAzwAgAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T04:59:01.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T04:59:01.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "SecureLoginJWT\\Models\\LoginModel.cs",
               "ToolTip": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Models\\LoginModel.cs",
               "RelativeToolTip": "SecureLoginJWT\\Models\\LoginModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T05:13:20.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "SecureLoginJWT\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Controllers\\AccountController.cs",
               "RelativeToolTip": "SecureLoginJWT\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAxwB0AAAAOAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwCEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T05:12:25.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "SecureLoginJWT\\Views\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "SecureLoginJWT\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA+AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T19:54:31.796Z"
+              "WhenOpened": "2024-11-07T19:54:31.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "SecureLoginJWT\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "SecureLoginJWT\\Models\\RegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T05:33:55.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserCredentials.cs",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Models\\UserCredentials.cs",
+              "RelativeDocumentMoniker": "SecureLoginJWT\\Models\\UserCredentials.cs",
+              "ToolTip": "C:\\Users\\amori\\Original\\SecureLoginJWT\\SecureLoginJWT\\Models\\UserCredentials.cs",
+              "RelativeToolTip": "SecureLoginJWT\\Models\\UserCredentials.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T05:14:27.278Z"
             },
             {
               "$type": "Document",
