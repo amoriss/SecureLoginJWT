@@ -3,26 +3,19 @@
 
 
 
-    <div class="login-container">
-        <h2>Login</h2>
+<div class="login-container">
+    <h2>Login</h2>
 
-        @using (Html.BeginForm("Login", "Account", FormMethod.Post))
-        {
-            <div class="form-group">
-                <label for="Username">Username:</label>
-                @Html.TextBoxFor(x => x.Username)
-            </div>
-            <div class="form-group">
-                <label for="Password">Password:</label>
-                @Html.TextBoxFor(x => x.Password)
-            </div>
-            <div>
-                <button type="submit">Login</button>
-            </div>
-            <div>
-                <a href="@Url.Action("Register", "Account")" class="btn btn-secondary">Sign Up</a>
-            </div>
-
-            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        }
-    </div>
+    <form asp-asp-controller="Account" asp-action="Login" method="post">
+        <div class="form-group">
+            <label for="Username">Username</label>
+            @Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label for="Password">Password</label>
+            @Html.PasswordFor(x => x.Password, new { @class="form-control"})
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+          @Html.ValidationSummary(true, "", new {@class = "text-danger"})
+    </form>
+</div>
