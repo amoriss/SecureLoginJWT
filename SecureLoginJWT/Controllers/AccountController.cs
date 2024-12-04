@@ -28,11 +28,18 @@ public class AccountController : Controller
     }
     // POST
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public async Task<ActionResult> Login(LoginModel model)
     {
 
         if(!ModelState.IsValid)
         {
+            var field = ModelState.Keys;
+            foreach(var error in ModelState.Values.SelectMany(v => v.Errors))
+            {
+                Console.WriteLine(error.ErrorMessage);
+                Console.WriteLine($"Field: {field}");
+            }
             return View(model);
         }
 
@@ -72,7 +79,7 @@ public class AccountController : Controller
 
         var tokenDescriptor = new SecurityTokenDescriptor
         {
-            Subject = new System.Security.Claims.ClaimsIdentity(new[] { new Claim(ClaimTypes.Name, username) }), // add claims (username) to the token
+            Subject = new System.Security.Claims.ClaimsIdentity(new[] { new Claim(ClaimTypes.Name, username) }), // add username as a claim to the token
             Expires = DateTime.UtcNow.AddMinutes(1), // token's expiration time
             SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature) // signs the token using secret key
         };

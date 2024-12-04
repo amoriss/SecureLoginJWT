@@ -1,12 +1,10 @@
 ﻿@model LoginModel
 
 
-
-
 <div class="login-container">
     <h2>Login</h2>
 
-    <form asp-asp-controller="Account" asp-action="Login" method="post">
+    <form asp-controller="Account" asp-action="Login" method="post">
         <div class="form-group">
             <label for="Username">Username</label>
             @Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
@@ -15,7 +13,10 @@
             <label for="Password">Password</label>
             @Html.PasswordFor(x => x.Password, new { @class="form-control"})
         </div>
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
         <button type="submit" class="btn btn-primary">Login</button>
-          @Html.ValidationSummary(true, "", new {@class = "text-danger"})
+          
     </form>
 </div>
